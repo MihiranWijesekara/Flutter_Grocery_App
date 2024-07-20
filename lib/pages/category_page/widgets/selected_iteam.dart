@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:grosary_app/pages/category_page/widgets/ratings.dart';
 import 'package:grosary_app/widgets/reusable/categories_page/item_desc_card.dart';
 
 class SelectedIteam extends StatelessWidget {
@@ -7,7 +8,7 @@ class SelectedIteam extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 400,
+      height: 520,
       width: double.infinity,
       decoration: BoxDecoration(
         color: const Color(0xffE0DcD6).withOpacity(0.29),
@@ -24,7 +25,7 @@ class SelectedIteam extends StatelessWidget {
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Text(
               "Vegetabels",
@@ -56,6 +57,8 @@ class SelectedIteam extends StatelessWidget {
                   "Vegetables are parts of plants that are consumed by humans...",
               number: 4,
             ),
+            SizedBox(height: 10,),
+            Ratings(),
           ],
         ),
       ),
