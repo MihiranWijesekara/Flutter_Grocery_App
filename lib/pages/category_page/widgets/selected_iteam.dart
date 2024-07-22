@@ -57,7 +57,7 @@ class SelectedIteam extends StatelessWidget {
                   "Vegetables are parts of plants that are consumed by humans...",
               number: 4,
             ),
-            SizedBox(height: 10,),
+            SizedBox(height: 10,), 
             Ratings(),
           ],
         ),

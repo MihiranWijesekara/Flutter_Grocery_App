@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:grosary_app/pages/category_page/category_page.dart';
 import 'package:grosary_app/pages/home_page/home_page.dart';
+import 'package:grosary_app/pages/product_details/product_details.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,8 +15,8 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Flutter Grocery App",
-      home: CategoryPage(),
+      home: ProductDetailsPage(),
     );
   }
 }
-//58.44
+//23.47
